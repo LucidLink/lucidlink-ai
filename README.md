@@ -22,6 +22,14 @@ LangChain, LlamaIndex, CrewAI, Pydantic AI, smolagents, OpenAI Agents, the
 Anthropic SDK, and the Claude Agent SDK. Tiny, self-contained files per
 framework: hand-wired SDK tools and MCP bridging, side by side.
 
+### [Scoped agents](https://github.com/LucidLink/lucidlink-agentic-examples/tree/master/scoped-agents)
+
+Least-privilege service accounts, minted by agents: your admin agent creates
+**collaborator service accounts** that see nothing until granted, hands a
+worker agent exactly one folder, and optionally makes the credential
+single-use so it self-destructs after its one mount. A natural-language
+walkthrough through the MCP.
+
 ### [Terminal agents (claws)](https://github.com/LucidLink/lucidlink-agentic-examples/tree/master/claws)
 
 One-page setup for wiring terminal agents - **OpenClaw**, **Hermes**, and **NVIDIA NemoClaw**
