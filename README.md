@@ -47,9 +47,23 @@ A custom **[IBM Bob](https://bob.ibm.com)** mode that lets Bob work with
 files in your LucidLink filespace - navigate, preview edits, and edit safely
 alongside your teammates and other agents.
 
+### [lucidlink-skills](https://github.com/LucidLink/lucidlink-skills)
+
+LucidLink's agent **skills**: one Claude Code plugin, `lucidlink`, and the same
+folder is a plain Agent Skills package for Codex. First skill,
+`filespace-dashboard`: a shareable dashboard for a filespace built from its
+audit trail and directory tree - activity pulse, who is working in which
+folder, humans versus agents, cold data, storage mix, newest changes - placed
+inside the filespace so everyone with the drive mounted sees the same page.
+
+```
+/plugin marketplace add LucidLink/lucidlink-skills
+/plugin install lucidlink@lucidlink-skills
+```
+
 ## Links
 
 - [LucidLink Python SDK on PyPI](https://pypi.org/project/lucidlink/)
 - [LucidLink MCP server on PyPI](https://pypi.org/project/lucidlink-mcp/)
-- [LucidLink Developer Platform KB](https://support.lucidlink.com/hc/en-us/articles/44957651982989-LucidLink-Developer-Platform)
+- [LucidLink Developer Portal](https://developer.lucidlink.com/)
 - [LucidLink Support](https://support.lucidlink.com/)
